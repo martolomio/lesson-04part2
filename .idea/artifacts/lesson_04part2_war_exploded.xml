@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="lesson-04part2:war exploded">
+    <output-path>$PROJECT_DIR$/target/lesson-04part2-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="lesson-04part2" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Servers/apache-tomcat-9.0.48/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Servers/apache-tomcat-9.0.48/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" />
+        </element>
+        <element id="directory" name="src">
+          <element id="dir-copy" path="$PROJECT_DIR$/src" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="lesson-04part2/web/Web" />
+    </root>
+  </artifact>
+</component>
